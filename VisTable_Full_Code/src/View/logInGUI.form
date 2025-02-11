@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.logInGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="15" bottom="20" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="418" height="281"/>
+    </constraints>
+    <properties>
+      <foreground color="-2104859"/>
+      <inheritsPopupMenu value="false"/>
+      <minimumSize width="310" height="244"/>
+      <preferredSize width="310" height="244"/>
+    </properties>
+    <border type="none">
+      <font/>
+      <title-color color="-2104859"/>
+    </border>
+    <children>
+      <component id="31d2a" class="javax.swing.JLabel" binding="titleLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13947600"/>
+          <enabled value="true"/>
+          <text value="Sign in"/>
+        </properties>
+      </component>
+      <component id="3f96b" class="javax.swing.JLabel" binding="usernameLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Username: "/>
+        </properties>
+      </component>
+      <component id="129a6" class="javax.swing.JLabel" binding="passwordLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Password: "/>
+        </properties>
+      </component>
+      <component id="6824" class="javax.swing.JTextField" binding="usernameTextField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="43b5b" class="javax.swing.JPasswordField" binding="passwordTextField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a9cc2" class="javax.swing.JButton" binding="loginButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="264" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Login"/>
+        </properties>
+      </component>
+      <component id="807dd" class="javax.swing.JButton" binding="SignupButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="264" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Sign Up"/>
+        </properties>
+      </component>
+      <component id="1a431" class="javax.swing.JButton" binding="ForgotPassButton">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="264" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="FORGOT PASSWORD"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
